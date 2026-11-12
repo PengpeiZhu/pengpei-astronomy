@@ -61,7 +61,7 @@ The count and year menu are derived from the data. The two additions are [SQuIGG
 
 After editing publication data, run `npm run bibliography` to regenerate the downloadable BibTeX file. Update the dated SciX match and affected checksum when intentionally changing the verified list. `npm run check` detects duplicate records, mismatched membership, stale bibliography downloads and changed assets.
 
-The downloadable CV is the original **9 November 2026, four-page PDF**. It still contains the earlier 17-paper list; this update changes the website bibliography, not the underlying CV document.
+The downloadable CV is the owner's **three-page PDF supplied on 12 November 2026**, with 19 papers. The supplied document is preserved unchanged, served at the stable `Pengpei-Zhu-CV.pdf` download path.
 
 ## GitHub Pages
 

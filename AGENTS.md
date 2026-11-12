@@ -42,7 +42,7 @@ The GitHub workflow is manual (`workflow_dispatch`). It reads `base_path` and `o
 
 Verify authorship and publication status against SciX and original journal/arXiv records before changing metadata. Do not label all entries peer reviewed. Preserve the selected/first-author flags unless requested. The All filter follows `scixOrder`; update that order when refreshing the SciX snapshot. Run `npm run bibliography` after changing citations so `public/publications.bib` stays synchronized. Keep the full author lists in BibTeX, even when the page abbreviates them.
 
-The CV PDF is a separate dated asset with 17 papers as of 9 November 2026. Do not silently change the PDF, its date/page count, or the live CV source when the request is only to update website publications.
+The current CV PDF is the owner's three-page `PengpeiZhu_Europass_CV.pdf`, supplied on 12 November 2026 with 19 papers. It is served unchanged as `public/Pengpei-Zhu-CV.pdf` so existing download links remain stable. Preserve its bytes, and only replace it when the owner supplies or requests a new version. Website bibliography updates do not authorize editing the PDF or its original source.
 
 ## Interactive labs
 

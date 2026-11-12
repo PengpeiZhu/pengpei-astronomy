@@ -2,6 +2,12 @@
 
 Record future feature, content, design and maintenance changes here, newest first. Include the date, what changed, validation, and any relevant deployment status.
 
+## 2026-11-12 · Updated CV download
+
+- Replaced the CV download with the owner's supplied `PengpeiZhu_Europass_CV.pdf`, preserving the document bytes and the existing public download address.
+- Updated the visible note to three pages and the 12 November upload date. The new PDF includes the 19-paper publication list.
+- Inspected all three rendered pages and updated only the approved CV checksum. The file is 71,709 bytes, SHA-256 `cd84e3b769ac7bd28cd93b5e271baa19fa2bbbb8aa050d4b00bf98bac563459c`.
+
 ## 2026-11-12 · Public website on GitHub Pages
 
 - The owner approved making the repository public and publishing the website through GitHub Pages.

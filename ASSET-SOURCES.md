@@ -4,7 +4,8 @@ Prepared from the owner's existing academic website on 12 November 2026. Scienti
 
 ## Academic content
 
-- Biography, education, CV and presentations: the owner's CV and cover-letter context used for the original website. Those private source documents and chat transcripts are not packaged. The CV PDF itself is the approved website download, dated 9 November 2026.
+- Biography, education and presentations: the owner's CV and cover-letter context used for the original website. Those private source documents and chat transcripts are not packaged.
+- CV download: the owner's three-page `PengpeiZhu_Europass_CV.pdf`, supplied on 12 November 2026, copied unchanged to `public/Pengpei-Zhu-CV.pdf`. SHA-256: `cd84e3b769ac7bd28cd93b5e271baa19fa2bbbb8aa050d4b00bf98bac563459c`.
 - Institutional profile: https://cosmicdawn.dk/staff/pengpei-zhu/
 - ORCID: https://orcid.org/0000-0002-6768-8335
 - Publications: all 19 results from the existing SciX query, checked on 12 November 2026. Exact query: `lib/publication-source.json`; individual matching records: `docs/scix-matches.json`.
