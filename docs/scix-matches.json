@@ -1,0 +1,120 @@
+{
+  "verifiedOn": "2026-11-12",
+  "query": "(orcid:0000-0002-6768-8335 OR =author:\"Zhu, Pengpei\" OR identifier:\"arXiv:2606.21361\" OR identifier:\"arXiv:2605.30424\")",
+  "records": [
+    {
+      "id": "donofrioSQuIGGLERadioAGN2026",
+      "scix": "https://scixplorer.org/abs/2026arXiv261019146D/abstract",
+      "title": "SQuIGGLE: Radio AGN Found Predominantly in Young, Gas-rich Post-starburst Galaxies at z ∼ 0.7",
+      "date": "2026-10"
+    },
+    {
+      "id": "bakerLeviathan2026",
+      "scix": "https://scixplorer.org/abs/2026arXiv261027101B/abstract",
+      "title": "Leviathan: a very massive, extended sub-millimetre galaxy spectroscopically confirmed at z = 4.05",
+      "date": "2026-10"
+    },
+    {
+      "id": "gottumukkalaDAWNJWSTArchive2026",
+      "scix": "https://scixplorer.org/abs/2026arXiv261015901G/abstract",
+      "title": "The DAWN JWST Archive: A spectroscopically-informed population study of the physical properties of galaxies at z>2",
+      "date": "2026-10"
+    },
+    {
+      "id": "settonSQuIGGLESpatiallyResolved2026",
+      "scix": "https://scixplorer.org/abs/2026arXiv260931307S/abstract",
+      "title": "SQuIGGLE: Spatially resolved NIRSpec Paα reveals that the most CO-luminous, z∼0.7 post-starburst galaxies exhibit falling—but still active—star formation behind optically thick dust",
+      "date": "2026-09"
+    },
+    {
+      "id": "luoSQuIGGLEUbiquitousCool2026",
+      "scix": "https://scixplorer.org/abs/2026arXiv260931308L/abstract",
+      "title": "SQuIGGLE: Ubiquitous Cool Gas Outflows with Large Mass-Loading Factors in z∼0.7 Post-starburst Galaxies",
+      "date": "2026-09"
+    },
+    {
+      "id": "zhuThereBackAgain2026",
+      "scix": "https://scixplorer.org/abs/2026A%26A...712A.169Z/abstract",
+      "title": "There and Back Again: Neutral Outflows in z ∼ 3.5 Quiescent Galaxies",
+      "date": "2026-08"
+    },
+    {
+      "id": "scarpeMorphologySizesScatter2026",
+      "scix": "https://scixplorer.org/abs/2026A%26A...711A.177S/abstract",
+      "title": "Morphology, Sizes, and Scatter in a Large Sample of Distant Quiescent Galaxies",
+      "date": "2026-07"
+    },
+    {
+      "id": "itoDeepDiveDeepDive2026",
+      "scix": "https://scixplorer.org/abs/2026A%26A...710A.364I/abstract",
+      "title": "DeepDive: A Deep Dive into the Physics of the First Massive Quiescent Galaxies in the Universe",
+      "date": "2026-06"
+    },
+    {
+      "id": "valentinoExtendedCIIEmission2026",
+      "scix": "https://scixplorer.org/abs/2026arXiv260621361V/abstract",
+      "title": "Extended [CII] gas emission in and around a massive quiescent galaxy at z=7.3",
+      "date": "2026-06"
+    },
+    {
+      "id": "valentinoHighIonizationCoronalLines2026",
+      "scix": "https://scixplorer.org/abs/2026arXiv260530424V/abstract",
+      "title": "High-ionization coronal lines trace quasar-like activity in recently quenched galaxies at high redshift",
+      "date": "2026-05"
+    },
+    {
+      "id": "kakimotoDeepDiveSimultaneousFormation2026",
+      "scix": "https://scixplorer.org/abs/2026arXiv260421007K/abstract",
+      "title": "DeepDive: Simultaneous Formation of Massive Quiescent Galaxies in High-Redshift Galaxy Overdensities",
+      "date": "2026-04"
+    },
+    {
+      "id": "bakerDoubleTroubleTwo2026",
+      "scix": "https://scixplorer.org/abs/2026A%26A...706A..91B/abstract",
+      "title": "Double Trouble: Two Spectroscopically Confirmed Low-Mass Quiescent Galaxies at z > 5 in Overdensities",
+      "date": "2026-02"
+    },
+    {
+      "id": "hamadoucheDeepDiveTracingEarly2026",
+      "scix": "https://scixplorer.org/abs/2026arXiv260202485H/abstract",
+      "title": "DeepDive: Tracing the early quenching pathways of massive quiescent galaxies at z>3 from their star-formation histories and chemical abundances",
+      "date": "2026-02"
+    },
+    {
+      "id": "settonSQuIGGL-EBuriedStar2025",
+      "scix": "https://scixplorer.org/abs/2025AJ....170..351S/abstract",
+      "title": "SQuIGGLE: Buried Star Formation Cannot Explain the Rapidly Fading CO(2-1) Luminosity in Massive, z ∼ 0.7 Post-starburst Galaxies",
+      "date": "2025-12"
+    },
+    {
+      "id": "donofrioQuenchingTidalGas2025a",
+      "scix": "https://scixplorer.org/abs/2025ApJ...990..166D/abstract",
+      "title": "Quenching through Tidal Gas Removal: Molecular Gas and Star Formation in Tidal Tails of z ∼ 0.7 Post-starburst Galaxies",
+      "date": "2025-09"
+    },
+    {
+      "id": "valentinoGasOutflowsTwo2025",
+      "scix": "https://scixplorer.org/abs/2025A%26A...699A.358V/abstract",
+      "title": "Gas Outflows in Two Recently Quenched Galaxies at z = 4 and 7",
+      "date": "2025-07"
+    },
+    {
+      "id": "itoMergingPairMassive2025",
+      "scix": "https://scixplorer.org/abs/2025A%26A...697A.111I/abstract",
+      "title": "A Merging Pair of Massive Quiescent Galaxies at z = 3.44 in the Cosmic Vine",
+      "date": "2025-05"
+    },
+    {
+      "id": "zhuSQuIGGEObservationalEvidence2025",
+      "scix": "https://scixplorer.org/abs/2025ApJ...981...60Z/abstract",
+      "title": "SQuIGGLE: Observational Evidence of Low Ongoing Star Formation Rates in Gas-rich Post-starburst Galaxies",
+      "date": "2025-03"
+    },
+    {
+      "id": "baoDifferentFormationScenarios2022",
+      "scix": "https://scixplorer.org/abs/2022ApJ...926L..13B/abstract",
+      "title": "Different Formation Scenarios for Counterrotating Stellar Disks in Nearby Galaxies",
+      "date": "2022-02"
+    }
+  ]
+}

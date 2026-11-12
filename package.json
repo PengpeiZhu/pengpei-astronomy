@@ -1,0 +1,29 @@
+{
+  "name": "pengpei-zhu-astronomy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pengpei Zhu's academic website and interactive astronomy labs",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 3100",
+    "build": "next build --webpack && node scripts/verify-export.mjs",
+    "preview": "node scripts/preview.mjs",
+    "typecheck": "tsc --noEmit",
+    "check": "node scripts/check-content.mjs",
+    "bibliography": "node scripts/sync-publications.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "src": "/photography/star-trails-observatory.jpg",
+    "caption": "Star trails above an observatory dome",
+    "alt": "Curving star trails across a blue sky above a small observatory dome and leafless branches.",
+    "width": 1086,
+    "height": 724,
+    "date": "2026-02-19",
+    "displayDate": "February 2026"
+  },
+  {
+    "src": "/photography/star-field-dust-lanes.jpg",
+    "caption": "A star field threaded with dark dust",
+    "alt": "A dense field of stars crossed by broad dark dust lanes and a brighter band.",
+    "width": 1098,
+    "height": 714,
+    "date": "2025-09-01",
+    "displayDate": "September 2025"
+  },
+  {
+    "src": "/photography/colour-and-dust.jpg",
+    "caption": "Colour and dust among the stars",
+    "alt": "Blue, gold and red clouds and dark dust set among a crowded field of stars.",
+    "width": 1050,
+    "height": 746,
+    "date": "2025-08-26",
+    "displayDate": "August 2025"
+  },
+  {
+    "src": "/photography/twilight-ridge.jpg",
+    "caption": "Twilight above the ridge",
+    "alt": "A pale twilight sky with bright points and a slender crescent above a dark ridge and antenna mast.",
+    "width": 768,
+    "height": 1024,
+    "date": "2025-08-21",
+    "displayDate": "August 2025"
+  },
+  {
+    "src": "/photography/telescope-under-stars.jpg",
+    "caption": "A telescope beneath the stars",
+    "alt": "A large telescope dish silhouetted beneath a dense star field.",
+    "width": 741,
+    "height": 1058,
+    "date": "2025-08-19",
+    "displayDate": "August 2025"
+  }
+]

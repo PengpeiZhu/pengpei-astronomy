@@ -1,0 +1,10 @@
+{
+  "verifiedOn": "2026-11-12",
+  "displayDate": "12 November 2026",
+  "query": "(orcid:0000-0002-6768-8335 OR =author:\"Zhu, Pengpei\" OR identifier:\"arXiv:2606.21361\" OR identifier:\"arXiv:2605.30424\")",
+  "scixResultCount": 19,
+  "addedArxivIds": [
+    "2610.19146",
+    "2610.27101"
+  ]
+}
