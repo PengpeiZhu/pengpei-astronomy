@@ -1,6 +1,6 @@
 name: Publish website to GitHub Pages
 
-# Manual publication while the owner reviews the repository.
+# Manual hosting step, separate from maintaining the private source repository.
 on:
   workflow_dispatch:
 

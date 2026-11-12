@@ -13,6 +13,8 @@ Prepared from the owner's existing academic website on 12 November 2026. Scienti
 
 ## Branding and design
 
+- Personal surname mark: `public/branding/zhu-seal.svg` and `public/favicon.svg`, adapted from [朱-seal.svg](https://commons.wikimedia.org/wiki/File:%E6%9C%B1-seal.svg), a documented Shuowen small-seal form. Original vector by Tradittore (26 August 2023), based on character reference S04109. Wikimedia Commons marks the ancient-script outline public domain. The original vector is retained in `docs/zhu-seal-source.svg`. Only colour, margins and a terracotta seal background were added; the glyph geometry is preserved. The form was also checked against [Taiwan Ministry of Education, 朱](https://dict.variants.moe.edu.tw/dictView.jsp?ID=20676).
+
 - DTU logo: https://media.adm.dtu.dk/designguide/DTU_Design_Guide_Pro_User/DTU_Design_Guide_Logo/Corporate_Red/Corp_Red_RGB/Corp_Red_RGB.png
 - DAWN logo: https://cosmicdawn.dk/wp-content/uploads/2020/11/DAWNlogo_1625x375.png
 - Transparent source assets retain their proportions and are presented in white with CSS, with a thin border/divider over the Milky Way.

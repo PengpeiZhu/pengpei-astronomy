@@ -53,7 +53,7 @@ h3 { font-size: 34px; font-weight: 400; letter-spacing: -.025em; }
 .site-header { position: relative; z-index: 40; background: var(--paper); border-bottom: 1px solid var(--line); }
 .header-inner { min-height: 104px; width: min(1720px, calc(100% - 96px)); margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 32px; }
 .wordmark { display: flex; align-items: center; gap: 14px; font-size: 23px; font-weight: 400; text-decoration: none; letter-spacing: -.025em; }
-.mark { display: inline-grid; place-items: center; width: 42px; height: 42px; border: 1px solid var(--green); border-radius: 50%; font-size: 29px; font-weight: 400; }
+.mark { display: block; flex: 0 0 auto; width: 42px; height: 42px; }
 .wordmark-cn { font-size: 18px; font-weight: 400; margin-left: 4px; color: var(--muted); }
 .site-header nav { display: flex; align-items: center; gap: 36px; }
 .site-header nav > a { font-size: 18px; text-decoration: none; position: relative; padding: 12px 0; }
@@ -568,7 +568,7 @@ h3 { font-size: 31px; }
   .site-header nav { gap: 18px; }
   .site-header nav > a { font-size: 16px; }
   .wordmark { font-size: 21px; gap: 10px; }
-  .wordmark .mark { display: none; }
+  .wordmark .mark { display: block; }
   .hero-main { gap: 50px; }
   .hero h1 { font-size: 72px; }
   .hero h1 > span { font-size: 43px; }
@@ -583,7 +583,7 @@ h3 { font-size: 31px; }
   .header-inner { min-height: 78px; }
   .site-header nav { top: 78px; }
   .site-header nav > a { font-size: 20px; }
-  .wordmark .mark { display: inline-grid; }
+  .wordmark .mark { display: block; }
   .hero-main { grid-template-columns: minmax(0,1fr) 220px; gap: 32px; }
   .hero h1 { font-size: 62px; }
   .hero h1 > span { font-size: 38px; }
@@ -619,7 +619,7 @@ h3 { font-size: 31px; }
   .header-inner { min-height: 72px; }
   .wordmark { font-size: 18px; gap: 8px; }
   .wordmark-cn { display: inline; font-size: 19px; margin-left: 3px; }
-  .wordmark .mark { display: none; }
+  .wordmark .mark { display: block; }
   .menu-toggle { font-size: 15px; padding: 8px 10px; }
   .site-header nav { top: 72px; }
   .hero-main { display: flex; flex-direction: column; gap: 38px; padding-block: 38px 44px; }
@@ -824,3 +824,12 @@ h3 { font-size: 31px; }
   .hero-actions { margin-top: 26px; }
 }
 @media print { .hero { background-image: none; } .hero-actions { display: none; } }
+
+/* Keep the surname seal, both names and menu visible on very narrow screens. */
+@media (max-width: 380px) {
+  .header-inner { gap: 10px; }
+  .wordmark { font-size: 16px; gap: 6px; }
+  .wordmark-cn { font-size: 17px; margin-left: 0; }
+  .wordmark .mark { width: 28px; height: 28px; }
+  .menu-toggle { flex-shrink: 0; white-space: nowrap; padding: 8px 10px; font-size: 15px; min-height: 42px; }
+}
