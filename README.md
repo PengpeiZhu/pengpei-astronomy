@@ -2,7 +2,7 @@
 
 Personal academic website for Pengpei Zhu (朱芃佩), with research, publications, interactive astronomy labs, talks and posters, astrophotographs, a downloadable CV, and contact information.
 
-This website includes **19 publications and preprints**, matched to the existing SciX search. Source is maintained in the private [PengpeiZhu/pengpei-astronomy repository](https://github.com/PengpeiZhu/pengpei-astronomy). Feature and maintenance history is recorded in [UPDATES.md](UPDATES.md).
+This website includes **19 publications and preprints**, matched to the existing SciX search. The website is published at **[pengpeizhu.github.io/pengpei-astronomy](https://pengpeizhu.github.io/pengpei-astronomy/)**, with source in the public [PengpeiZhu/pengpei-astronomy repository](https://github.com/PengpeiZhu/pengpei-astronomy). Feature and maintenance history is recorded in [UPDATES.md](UPDATES.md).
 
 ## Review locally
 
@@ -65,12 +65,13 @@ The downloadable CV is the original **9 November 2026, four-page PDF**. It still
 
 ## GitHub Pages
 
-The source repository is private. Uploading the source does not enable GitHub Pages. If the owner later chooses to publish the website, review the desired website audience and available Pages plan first, then:
+The repository and website are public, as approved by the owner on 12 November 2026. Pages uses the existing GitHub Actions workflow. To publish an update:
 
-1. Set **Settings → Pages → Source → GitHub Actions**.
-2. Run **Actions → Publish website to GitHub Pages → Run workflow**.
+1. Push the reviewed changes to `main`.
+2. Run **Actions → Publish website to GitHub Pages → Run workflow**, using `main`.
+3. Wait for the build and deployment to succeed, then check the live website.
 
-Publication is manual. Merely uploading the repository does not trigger the workflow. The workflow reads the actual Pages URL and configures both the public asset prefix and sharing metadata automatically. It supports a project URL such as `https://USERNAME.github.io/pengpei-astronomy/`, a `USERNAME.github.io` repository, or an appropriately configured custom domain.
+Publication is manual. Merely pushing changes does not trigger the workflow. **Settings → Pages → Source** is configured as **GitHub Actions**. The workflow reads the actual Pages URL and configures both the public asset prefix and sharing metadata automatically, including the `/pengpei-astronomy/` project path.
 
 To test a project path locally:
 
@@ -81,7 +82,7 @@ npm run preview
 
 The preview server reads the build's base path and prints the matching address. Run `npm run build` without those variables to return to a domain-root build. Optional `.env.local` settings can be based on `.env.example` and are ignored by Git. `NEXT_PUBLIC_SITE_URL` is the origin only; the path goes in `NEXT_PUBLIC_BASE_PATH`.
 
-The workflow follows [GitHub's custom Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) and [Next.js static export support](https://nextjs.org/docs/app/guides/static-exports). The hosting workflow has not been run; a private source repository does not by itself make a published Pages website private.
+The workflow follows [GitHub's custom Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) and [Next.js static export support](https://nextjs.org/docs/app/guides/static-exports). See [UPDATES.md](UPDATES.md) for publication and validation records.
 
 ## Preserved placeholders and credits
 

@@ -2,6 +2,13 @@
 
 Record future feature, content, design and maintenance changes here, newest first. Include the date, what changed, validation, and any relevant deployment status.
 
+## 2026-11-12 · Public website on GitHub Pages
+
+- The owner approved making the repository public and publishing the website through GitHub Pages.
+- The publishing workflow builds the reviewed source on `main`, verifies content and types, and exports the site with the `/pengpei-astronomy/` prefix.
+- Updated the maintenance guide and README with the public website address and the manual publishing procedure. The separate Sites-hosted copy keeps its existing private audience.
+- Publication and live verification are in progress; the completion record will be added here after verification.
+
 ## 2026-11-12 · Private GitHub repository and surname identity
 
 - Merged the maintenance notes into one `AGENTS.md` and removed the duplicate `AGENT.md`.
