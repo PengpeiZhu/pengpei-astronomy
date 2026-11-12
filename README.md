@@ -1,6 +1,6 @@
 # Pengpei Zhu · Astronomy
 
-Personal academic website for Pengpei Zhu (朱芃佩), with research, publications, interactive astronomy labs, talks and posters, astrophotographs, a downloadable CV, and contact information.
+Pengpei's personal academic website for Pengpei Zhu (朱芃佩), with research, publications, interactive astronomy labs, talks and posters, astrophotographs, a downloadable CV, and contact information.
 
 This website includes **19 publications and preprints**, matched to the existing SciX search. The website is published at **[pengpeizhu.github.io/pengpei-astronomy](https://pengpeizhu.github.io/pengpei-astronomy/)**, with source in the public [PengpeiZhu/pengpei-astronomy repository](https://github.com/PengpeiZhu/pengpei-astronomy). Feature and maintenance history is recorded in [UPDATES.md](UPDATES.md).
 
