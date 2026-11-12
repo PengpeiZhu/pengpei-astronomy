@@ -7,13 +7,16 @@ Record future feature, content, design and maintenance changes here, newest firs
 - Replaced the CV download with the owner's supplied `PengpeiZhu_Europass_CV.pdf`, preserving the document bytes and the existing public download address.
 - Updated the visible note to three pages and the 12 November upload date. The new PDF includes the 19-paper publication list.
 - Inspected all three rendered pages and updated only the approved CV checksum. The file is 71,709 bytes, SHA-256 `cd84e3b769ac7bd28cd93b5e271baa19fa2bbbb8aa050d4b00bf98bac563459c`.
+- Published successfully in [GitHub Actions run 43253384457](https://github.com/PengpeiZhu/pengpei-astronomy/actions/runs/43253384457). The unauthenticated live PDF download matches the supplied file exactly, and both homepage CV links point to it.
 
 ## 2026-11-12 · Public website on GitHub Pages
 
 - The owner approved making the repository public and publishing the website through GitHub Pages.
 - The publishing workflow builds the reviewed source on `main`, verifies content and types, and exports the site with the `/pengpei-astronomy/` prefix.
 - Updated the maintenance guide and README with the public website address and the manual publishing procedure. The separate Sites-hosted copy keeps its existing private audience.
-- Publication and live verification are in progress; the completion record will be added here after verification.
+- The repository is public and [the website](https://pengpeizhu.github.io/pengpei-astronomy/) is live over HTTPS. GitHub Pages uses the manual Actions workflow with HTTPS enforced.
+- The latest published website source is `e24c1909e02edd8f53dbc7b1a76a48f3c79e2631`. The build, content checks, TypeScript and deployment all passed in [run 43253384457](https://github.com/PengpeiZhu/pengpei-astronomy/actions/runs/43253384457).
+- Live verification: all 16 public assets returned HTTP 200 and matched their reviewed checksums, including the updated CV and both full labs. The project-path build resolved all 23 local references. UVJ and SFH preview controls and the photo viewer worked; desktop and 390 px mobile layouts had no page overflow, and the mobile menu opened and closed. The checked browser session reported no console errors.
 
 ## 2026-11-12 · Private GitHub repository and surname identity
 
