@@ -2,6 +2,12 @@
 
 Record future feature, content, design and maintenance changes here, newest first. Include the date, what changed, validation, and any relevant deployment status.
 
+## 2026-11-13 · Automatic GitHub Pages publishing
+
+- A push or pull request merge into `main` now starts the GitHub Pages workflow automatically.
+- The workflow checks content, TypeScript, and the static export before publishing. Use **Run workflow** for an on-demand redeploy. [GitHub Actions run history](https://github.com/PengpeiZhu/pengpei-astronomy/actions/workflows/pages.yml)
+- Checked that the workflow targets `main` and that publishing depends on a successful build.
+
 ## 2026-11-12 · Updated CV download
 
 - Replaced the CV download with the owner's supplied `PengpeiZhu_Europass_CV.pdf`, preserving the document bytes and the existing public download address.
@@ -14,8 +20,8 @@ Record future feature, content, design and maintenance changes here, newest firs
 - The owner approved making the repository public and publishing the website through GitHub Pages.
 - The publishing workflow builds the reviewed source on `main`, verifies content and types, and exports the site with the `/pengpei-astronomy/` prefix.
 - Updated the maintenance guide and README with the public website address and the manual publishing procedure. The separate Sites-hosted copy keeps its existing private audience.
-- The repository is public and [the website](https://pengpeizhu.github.io/pengpei-astronomy/) is live over HTTPS. GitHub Pages uses the manual Actions workflow with HTTPS enforced.
-- The latest published website source is `e24c1909e02edd8f53dbc7b1a76a48f3c79e2631`. The build, content checks, TypeScript and deployment all passed in [run 43253384457](https://github.com/PengpeiZhu/pengpei-astronomy/actions/runs/43253384457).
+- Made the repository public and published the website with the manual Actions workflow and enforced HTTPS. [Public website](https://pengpeizhu.github.io/pengpei-astronomy/)
+- The 12 November release built source commit `e24c1909e02edd8f53dbc7b1a76a48f3c79e2631`. The build, content checks, TypeScript and deployment all passed. [GitHub Actions run 43253384457](https://github.com/PengpeiZhu/pengpei-astronomy/actions/runs/43253384457)
 - Live verification: all 16 public assets returned HTTP 200 and matched their reviewed checksums, including the updated CV and both full labs. The project-path build resolved all 23 local references. UVJ and SFH preview controls and the photo viewer worked; desktop and 390 px mobile layouts had no page overflow, and the mobile menu opened and closed. The checked browser session reported no console errors.
 
 ## 2026-11-12 · Private GitHub repository and surname identity

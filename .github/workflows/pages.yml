@@ -1,7 +1,8 @@
 name: Publish website to GitHub Pages
 
-# Publish the reviewed main branch manually to the public GitHub Pages website.
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:

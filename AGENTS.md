@@ -2,7 +2,7 @@
 
 ## Scope and publishing status
 
-This repository is Pengpei Zhu's academic website. On 12 November 2026, after the initial private review, the owner explicitly approved making `PengpeiZhu/pengpei-astronomy` public and publishing the website with GitHub Pages. The public website address is `https://pengpeizhu.github.io/pengpei-astronomy/`. Ordinary requested edits, builds, commits, pushes and publication to this website are permitted. Preserve the manual publication workflow unless the owner requests automatic deployment. The separate Sites-hosted copy retains its existing private audience.
+This repository is Pengpei Zhu's academic website. On 12 November 2026, after the initial private review, the owner explicitly approved making `PengpeiZhu/pengpei-astronomy` public and publishing the website with GitHub Pages. The public website address is `https://pengpeizhu.github.io/pengpei-astronomy/`. Ordinary requested edits, builds, commits, pushes and publication to this website are permitted. The separate Sites-hosted copy retains its existing private audience.
 
 This is a standalone Next.js static export. Do not restore Sites authentication, Cloudflare workers, connector scaffolding, database code, or `.openai/hosting.json`. Do not import private chat transcripts, cover-letter documents, local credentials, tool caches or unrelated research files into this repository.
 
@@ -21,7 +21,7 @@ This is a standalone Next.js static export. Do not restore Sites authentication,
 - For a path-related change, build with `NEXT_PUBLIC_BASE_PATH=/pengpei-astronomy` as well as an empty base path. Check actual lab loading, photos and downloads under the prefixed URL.
 - For visible changes, inspect desktop and a narrow mobile viewport. Check affected controls, not just the initial page image. Do not add tests that merely repeat trivial markup.
 
-The GitHub workflow is manual (`workflow_dispatch`). It reads `base_path` and `origin` from `actions/configure-pages`. Public files and lab fetches must use `assetPath()` from `lib/site-path.ts`. The hero photograph uses the `--hero-image` body style so its path works on project Pages. Do not add root-only `/...` asset links or hard-code deployment paths in components. After a requested website update, run the publication workflow and verify the live result; a Git push alone does not deploy.
+GitHub Pages builds and deploys automatically on pushes to `main`. Use the manual workflow dispatch for an on-demand redeploy. The workflow reads `base_path` and `origin` from `actions/configure-pages`. Public files and lab fetches must use `assetPath()` from `lib/site-path.ts`. The hero photograph uses the `--hero-image` body style so its path works on project Pages. Do not add root-only `/...` asset links or hard-code deployment paths in components. After pushing a website update, check the resulting Actions run and verify the live result.
 
 ## Content and design to preserve
 

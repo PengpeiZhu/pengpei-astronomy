@@ -51,7 +51,7 @@ npm run preview
 | `docs/assets-sha256.json` | Checksums for the reviewed asset set |
 | `AGENTS.md` | Maintenance instructions and established content/design decisions |
 | `UPDATES.md` | Dated feature and maintenance history |
-| `.github/workflows/pages.yml` | Manual GitHub Pages publication workflow |
+| `.github/workflows/pages.yml` | GitHub Pages workflow that publishes on pushes to `main` |
 
 The website is exported as ordinary HTML, CSS and JavaScript using Next.js. It requires no application server, database, ChatGPT account, Sites credentials, or API keys. All assets needed to display the site are included. Publication searches, institutional profiles and source-paper links lead to their respective external websites.
 
@@ -65,13 +65,9 @@ The downloadable CV is the owner's **three-page PDF supplied on 12 November 2026
 
 ## GitHub Pages
 
-The repository and website are public, as approved by the owner on 12 November 2026. Pages uses the existing GitHub Actions workflow. To publish an update:
+Push changes to `main` or merge a pull request into `main` to publish an update. GitHub Actions checks the content and types, verifies the static export, and publishes the build to GitHub Pages. Check the run under **Actions → Publish website to GitHub Pages**. To redeploy on demand, choose **Run workflow** and select `main`.
 
-1. Push the reviewed changes to `main`.
-2. Run **Actions → Publish website to GitHub Pages → Run workflow**, using `main`.
-3. Wait for the build and deployment to succeed, then check the live website.
-
-Publication is manual. Merely pushing changes does not trigger the workflow. **Settings → Pages → Source** is configured as **GitHub Actions**. The workflow reads the actual Pages URL and configures both the public asset prefix and sharing metadata automatically, including the `/pengpei-astronomy/` project path.
+**Settings → Pages → Source** is configured as **GitHub Actions**. The workflow reads the actual Pages URL and configures the public asset prefix and sharing metadata automatically, including the current `/pengpei-astronomy/` project path.
 
 To test a project path locally:
 
